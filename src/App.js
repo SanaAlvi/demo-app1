@@ -11,8 +11,8 @@ function App() {
       <Dinner dishName="Chicken Bariyani" sweetDish="Kheer" />
 
       <hr />
-      <Dinner dishName="Chicken Bariyani" sweetDish="Kheer" />
-      
+      <Dinner dishName="Karhahi" sweetDish="Halwa" />
+
     </div>
   )
  }
