@@ -5,13 +5,7 @@ import './App.css';
 function App() {
   return  (
     <div className="App">
-      <Dinner dishName="Chicken Bariyani" sweetDish="Kheer" />
-
-      <hr />
-      <Dinner dishName="Chicken Bariyani" sweetDish="Kheer" />
-
-      <hr />
-      <Dinner dishName="Karhahi" sweetDish="Halwa" />
+         <h1>Sana Alvi Shafqat</h1>
 
     </div>
   )
