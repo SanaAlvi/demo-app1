@@ -5,8 +5,8 @@ import Dinner from './dinner.js'
 function App() {
   return  (
     <div className="App-header">
-         <h1 >Sana Alvi Shafqat</h1>
-        <Dinner dishName="Karahi" sweetDish="Halwa" />
+         <h1>Sana Alvi Shafqat</h1>
+        <Dinner dishName="Karahi" sweetDish="Halwa" / className="App">
     </div>
   )
  }
