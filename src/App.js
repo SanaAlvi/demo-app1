@@ -1,6 +1,6 @@
 import React from 'react'; // we are importing React function from reat 
 import './App.css';
-import Dinner from './Dinner.js'
+//import Dinner from './Dinner.js'
 
 function App() {
   return  (
