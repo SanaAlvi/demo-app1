@@ -13,7 +13,7 @@ function App() {
         <Dinner dishName="Karahi" sweetDish="Halwa" />
         <h3>The updated value is {count} </h3>
         <button onClick={()=> Countset(count+1)}>update State</button>
-        <morning time={Moring} />
+        <morning time={moring} />
         <button onClick={()=> setmorning(!ismorning) }>
          Change Time 
         </button>
