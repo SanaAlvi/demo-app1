@@ -1,7 +1,7 @@
 import React, { useState } from 'react'; // we are importing React function from reat 
 import './App.css';
 import Dinner from './dinner.js'
-import morning from './morning.js'
+//import morning from './morning.js'
 
 function App() {
   let [count,Countset]=useState(0)
@@ -13,7 +13,8 @@ function App() {
         <Dinner dishName="Karahi" sweetDish="Halwa" />
         <h3>The updated value is {count} </h3>
         <button onClick={()=> Countset(count+1)}>update State</button>
-        <button onClick={()=> morning ? "Mrning" : "Night"}>
+        <h3>Good {ismorning ? "Mrning" : "Night"} </h3>
+        <button onClick={()=> setmorning(!ismorning) }>
          Change Time 
         </button>
     </div>
