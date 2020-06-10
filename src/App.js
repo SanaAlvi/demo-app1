@@ -11,9 +11,11 @@ function App() {
     <div className="App-header">
          <h1>Sana Alvi Shafqat</h1>
         <Dinner dishName="Karahi" sweetDish="Halwa" />
-        <h3>The updated value is {count} </h3>
+        <morning counter={count} />
         <button onClick={()=> Countset(count+1)}>update State</button>
-        <morning time={moring} />
+        <br />
+      
+        <h3>Good {ismorning ? "Morning" : "Night"} </h3>
         <button onClick={()=> setmorning(!ismorning) }>
          Change Time 
         </button>
