@@ -12,7 +12,10 @@ function App() {
          <h1>Sana Alvi Shafqat</h1>
         <Dinner dishName="Karahi" sweetDish="Halwa" />
         <morning counter={count} />
-        <button onClick={()=> Countset(count+1)}>update State</button>
+        
+        <button onClick={()=> Countset(count+1)}>
+          update State
+          </button>
         <br />
       
         <h3>Good {ismorning ? "Morning" : "Night"} </h3>
