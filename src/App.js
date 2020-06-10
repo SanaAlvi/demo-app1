@@ -8,6 +8,7 @@ function App() {
     <div className="App-header">
          <h1>Sana Alvi Shafqat</h1>
         <Dinner dishName="Karahi" sweetDish="Halwa" />
+        <h3>The updated value is {count} </h3>
         <button onClick={()=> Countset(count+1)}>update State</button>
     </div>
   )
