@@ -12,6 +12,7 @@
   border-radius: 5px;
   border-width: 20px;
   box-sizing: content-box;
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {
