@@ -11,10 +11,10 @@ function App() {
     <div className={`App ${!isMorning ? 'App-header' : ''}`}>
   
          <h1>Sana Alvi</h1>
-
+            
          <Dinner dishName="Bariyani" sweetDish="Halwa" />
 
-         <h3>Good {isMorning ? "Morning" : "Night"} </h3>
+         <h3 className="Sana">Good {isMorning ? "Morning" : "Night"} </h3>
          <Message counter={count}/>
          <button onClick={() => setMorning(!isMorning)}>
          Change Time 
@@ -31,13 +31,17 @@ function App() {
            decrement Counter
          </button>
           <br />
+         
          <button onClick={()=> setCount(count = 0)}>
           Reset counter
          </button>
+         
          <button onClick={() => setCount(count*2)}>
            Multiply 2
          </button>
-         <button onClick={() => alert("Button Pressed")}>See Alert</button>
+         <button onClick={() => alert("Button Pressed")}>
+           See Alert
+         </button>
 
     </div>
   )
