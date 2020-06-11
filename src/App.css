@@ -1,12 +1,6 @@
 .App {
   text-align: center;
   background-color: #61dafb;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-logo {
