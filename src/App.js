@@ -8,7 +8,7 @@ function App() {
   let [isMorning,setMorning]=useState(true)
 
   return  (
-    <div className={`App ${isMorning ? 'App-header' : ''}`}>
+    <div className={`App-header ${isMorning ? 'App' : ''}`}>
   
          <h1>Sana Alvi</h1>
 
