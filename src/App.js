@@ -8,7 +8,7 @@ export default function App() {
   let [isMorning,setMorning]=useState(true)
 
   return  (
-    <div className={"App-header ${ismorning ? 'App' : ''}">
+    <div className={"App-header ${isMorning ? 'App' : ''}"}>
          <h1>Sana Alvi</h1>
          <h3>Good {isMorning ? "Morning" : "Night"} </h3>
          <Message counter={count}/>
@@ -22,7 +22,7 @@ export default function App() {
          <br />
          
          <button onClick={() => setCount(count + 1)}>
-           Decrement Counter
+           decrement Counter
          </button>
         
       
