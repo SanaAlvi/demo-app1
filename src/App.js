@@ -1,6 +1,6 @@
 import React, { useState } from 'react'; // we are importing React function from reat 
 import './App.css';
-// import Dinner from './dinner.js'
+import Dinner from './dinner.js'
 import {Message} from './morning.js'
 
 export default function App() {
@@ -11,9 +11,16 @@ export default function App() {
     <div className={`App-header ${isMorning ? 'App' : ''}`}>
   
          <h1>Sana Alvi</h1>
+
+         <Dinner dishName="Bariyani" sweetDish="Halwa" />
+
          <h3>Good {isMorning ? "Morning" : "Night"} </h3>
          <Message counter={count}/>
-          
+         <button onClick={() => setMorning(!isMorning)}>
+         Change Time 
+         </button>
+
+
          <br />
          
          <button onClick={() => setCount(count + 1)}>
@@ -22,15 +29,13 @@ export default function App() {
 
          <br />
          
-         <button onClick={() => setCount(count + 1)}>
+         <button onClick={() => setCount(count - 1)}>
            decrement Counter
          </button>
         
       
          
-         <button onClick={() => setMorning(!isMorning)}>
-         Change Time 
-         </button>
+
          
     </div>
   )
