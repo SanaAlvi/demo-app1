@@ -30,11 +30,15 @@ function App() {
          <button onClick={() => setCount(count - 1)}>
            decrement Counter
          </button>
-
+          <br />
          <button onClick={()=> setCount(count = 0)}>
           Reset counter
          </button>
-         
+         <button onClick={() => setCount(count*2)}>
+           Multiply 2
+         </button>
+         <button onClick={() => alert("Button Pressed")}>See Alert</button>
+
     </div>
   )
   
