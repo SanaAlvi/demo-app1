@@ -8,7 +8,8 @@ export default function App() {
   let [isMorning,setMorning]=useState(true)
 
   return  (
-    <div className={"App-header ${isMorning ? 'App' : ''}"}>
+    <div className={`App-header ${isMorning ? 'App' : ''}`}>
+  
          <h1>Sana Alvi</h1>
          <h3>Good {isMorning ? "Morning" : "Night"} </h3>
          <Message counter={count}/>
