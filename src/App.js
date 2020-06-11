@@ -1,7 +1,7 @@
 import React, { useState } from 'react'; // we are importing React function from reat 
 import './App.css';
 import Dinner from './dinner.js'
-//import {morning} from './morning.js'
+// import {morning} from './morning.js'
 
 function App() {
   let [count,setCount]=useState(0);
@@ -10,7 +10,7 @@ function App() {
   return  (
     <div className={"App-header ${ismorning ? 'App' : ''}">
          <h1>Muhammad Arsalan Bajwa</h1>
-         <Dinner dishName="Karahi" sweetDish="Halwa" />
+         
          <br />
          
          <h3>Counter is updated {count}</h3>
