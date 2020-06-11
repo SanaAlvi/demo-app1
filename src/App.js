@@ -1,27 +1,33 @@
 import React, { useState } from 'react'; // we are importing React function from reat 
 import './App.css';
-import Dinner from './dinner.js'
-// import {morning} from './morning.js'
+// import Dinner from './dinner.js'
+import {Message} from './morning.js'
 
-function App() {
+export default function App() {
   let [count,setCount]=useState(0);
-  let [ismorning,setmorning]=useState(true)
+  let [isMorning,setMorning]=useState(true)
 
   return  (
     <div className={"App-header ${ismorning ? 'App' : ''}">
-         <h1>Muhammad Arsalan Bajwa</h1>
-         
-         <h3>Counter is updated {count}</h3>
+         <h1>Sana Alvi</h1>
+         <h3>Good {isMorning ? "Morning" : "Night"} </h3>
+         <Message counter={count}/>
+          
          <br />
-   
+         
          <button onClick={() => setCount(count + 1)}>
-           Update Counter
+           increment Counter
          </button>
 
-        <br />
+         <br />
+         
+         <button onClick={() => setCount(count + 1)}>
+           Decrement Counter
+         </button>
+        
       
-         <h3>Good {ismorning ? "Morning" : "Night"} </h3>
-         <button onClick={()=> setmorning(!ismorning) }>
+         
+         <button onClick={() => setMorning(!isMorning)}>
          Change Time 
          </button>
          
@@ -30,4 +36,4 @@ function App() {
   
  }
 
-export default App; //First we have to export then in other file it can be import
+//</div>export default App; //First we have to export then in other file it can be import
