@@ -11,8 +11,6 @@ function App() {
     <div className={"App-header ${ismorning ? 'App' : ''}">
          <h1>Muhammad Arsalan Bajwa</h1>
          
-         <br />
-         
          <h3>Counter is updated {count}</h3>
          <br />
    
