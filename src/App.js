@@ -10,11 +10,11 @@ function App() {
   return  (
     <div className={`App ${!isMorning ? 'App-header' : ''}`}>
   
-         <h1>Sana Alvi</h1>
+         <h1 className="Sana">Sana Alvi</h1>
             
          <Dinner dishName="Bariyani" sweetDish="Halwa" />
 
-         <h3 className="Sana">Good {isMorning ? "Morning" : "Night"} </h3>
+         <h3>Good {isMorning ? "Morning" : "Night"} </h3>
          <Message counter={count}/>
          <button onClick={() => setMorning(!isMorning)}>
          Change Time 
