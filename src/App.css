@@ -7,9 +7,10 @@
 }
 
 .Sana{
-  background-color: cornsilk;
+  background-color: rgb(251, 255, 0);
   border: crimson;
   border-radius: 5px;
+  border-width: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
