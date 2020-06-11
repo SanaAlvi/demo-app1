@@ -3,7 +3,7 @@ import './App.css';
 import Dinner from './dinner.js'
 import {Message} from './morning.js'
 
-export default function App() {
+function App() {
   let [count,setCount]=useState(0);
   let [isMorning,setMorning]=useState(true)
 
@@ -26,20 +26,13 @@ export default function App() {
          <button onClick={() => setCount(count + 1)}>
            increment Counter
          </button>
-
-         <br />
          
          <button onClick={() => setCount(count - 1)}>
            decrement Counter
          </button>
-        
-      
-         
-
          
     </div>
   )
   
  }
-
-//</div>export default App; //First we have to export then in other file it can be import
+export default App; //First we have to export then in other file it can be import
